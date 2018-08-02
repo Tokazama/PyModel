@@ -1,6 +1,6 @@
-from collections import OrderedDict
 
-class BaseModel:
+
+ass BaseModel:
     def __init__(self, data, **kwargs):
         self.data = data
         self.steps = OrderedDict(**kwargs)
@@ -25,8 +25,4 @@ class BaseStep:
     def run:
         pass
 
-class KernelRegression(BaseModel): 
-"""
-def make_step(function, params, result):
-    pass
-"""
+
